@@ -1,7 +1,7 @@
-import type { Installer } from "./index.js";
+import type { Installer } from "~/installers/index.js";
 import path from "path";
 import fs from "fs-extra";
-import { PKG_ROOT } from "../consts.js";
+import { PKG_ROOT } from "~/consts.js";
 
 export const nextAuthInstaller: Installer = async ({
   projectDir,
@@ -33,7 +33,10 @@ export const nextAuthInstaller: Installer = async ({
   );
 
   const nextAuthDefinitionSrc = path.join(nextAuthAssetDir, "next-auth.d.ts");
-  const nextAuthDefinitionDest = path.join(projectDir, "next-auth.d.ts");
+  const nextAuthDefinitionDest = path.join(
+    projectDir,
+    "src/types/next-auth.d.ts",
+  );
 
   await Promise.all([
     fs.copy(apiHandlerSrc, apiHandlerDest),

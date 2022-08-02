@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.4.0](https://github.com/t3-oss/create-t3-app/compare/v5.3.0...v5.4.0) (2022-08-02)
+
+### Features
+
+- add deployment strategy to generated README ([#258](https://github.com/t3-oss/create-t3-app/issues/258)) ([c7d4dce](https://github.com/t3-oss/create-t3-app/commit/c7d4dce182b1c306dc2a41d42483994c336843f4))
+- set appName to directory on 'npx create-t3-app .' ([#273](https://github.com/t3-oss/create-t3-app/issues/273)) ([2179f2d](https://github.com/t3-oss/create-t3-app/commit/2179f2d38f74de0e3fda5661f5125d049eb4d238))
+
+### Bug Fixes
+
+- height on small screens ([#256](https://github.com/t3-oss/create-t3-app/issues/256)) ([fe86915](https://github.com/t3-oss/create-t3-app/commit/fe86915ced72dc979e5fe68bd56b038d9c714928))
+- missing next-auth types ([#255](https://github.com/t3-oss/create-t3-app/issues/255)) ([ed42629](https://github.com/t3-oss/create-t3-app/commit/ed42629be5fb9be72abd40bbe784f2bda99eec99)), closes [#254](https://github.com/t3-oss/create-t3-app/issues/254)
+- **prisma:** make db changes for next-auth on mysql obvious ([#275](https://github.com/t3-oss/create-t3-app/issues/275)) ([e9507c8](https://github.com/t3-oss/create-t3-app/commit/e9507c887e135f3e44357c618689f5cdb2f13c43))
+
+## [5.3.0](https://github.com/t3-oss/create-t3-app/compare/v5.2.1...v5.3.0) (2022-07-25)
+
+### Features
+
+- add typesafe client side env variables ([#209](https://github.com/t3-oss/create-t3-app/issues/209)) ([d4cf879](https://github.com/t3-oss/create-t3-app/commit/d4cf879df811ded012a5f7cb3d91ff0bb95d87ac))
+- improved logo typography ([#238](https://github.com/t3-oss/create-t3-app/issues/238)) ([48c6720](https://github.com/t3-oss/create-t3-app/commit/48c67207da48c901822e214a00285c99bb785fd8))
+- updating tailwind and postcss config's to use .cjs ([#242](https://github.com/t3-oss/create-t3-app/issues/242)) ([5b97367](https://github.com/t3-oss/create-t3-app/commit/5b973670cae729c9e93b6c3c6f0b3e5b48dda904))
+
+### Bug Fixes
+
+- added JSDoc type to clientEnv in all env-schema ([#240](https://github.com/t3-oss/create-t3-app/issues/240)) ([9cb5ebb](https://github.com/t3-oss/create-t3-app/commit/9cb5ebbb2a0147ce15726c7e1a6c6be4065bc2dc))
+- clarify some comments and rename some files in env ([#245](https://github.com/t3-oss/create-t3-app/issues/245)) ([2048783](https://github.com/t3-oss/create-t3-app/commit/2048783bd26f7f0522357a3ab1e74e6f560a221c))
+- remove semicolon in \_app.tsx with next-auth to avoid early return ([1be7713](https://github.com/t3-oss/create-t3-app/commit/1be771393628631b818b46d3f3bf1ca41ad99dce))
+- title being offset when using yarn/pnpm ([c881f00](https://github.com/t3-oss/create-t3-app/commit/c881f00430f606040a448eecc41e779ab0c728a7))
+
 ### [5.2.1](https://github.com/t3-oss/create-t3-app/compare/v5.2.0...v5.2.1) (2022-07-19)
 
 ### Bug Fixes
